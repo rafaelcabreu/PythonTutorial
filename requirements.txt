@@ -1,5 +1,0 @@
-matplotlib
-numpy
-xarray
-cartopy
-proj4
