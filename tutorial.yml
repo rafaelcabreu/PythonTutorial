@@ -1,8 +1,10 @@
-version: '3.5'
-
-services:
-    tutorial:
-        build:
-            dockerfile: ./tutorial.dockerfile
-            context: .
-        container_name: pythontuts
+name: tutorial-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  - numpy
+  - matplotlib
+  - xarray
+  - cartopy
+  - pandas
