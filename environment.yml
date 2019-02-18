@@ -1,4 +1,4 @@
-name: tutorial-environment
+name: tutorial-env
 channels:
   - conda-forge
 dependencies:
@@ -8,4 +8,5 @@ dependencies:
   - xarray
   - cartopy
   - pandas
-  - jupyter
+  - scipy
+  
