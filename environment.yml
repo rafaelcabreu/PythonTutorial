@@ -1,4 +1,4 @@
-name: tutorial-env
+name: tuts
 channels:
   - conda-forge
 dependencies:
